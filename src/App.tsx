@@ -1,4 +1,3 @@
-import "./App.css";
 import { FormExample } from "./components/FormExample";
 import { RequiredFormExample } from "./components/RequiredFormExample";
 
