@@ -18,14 +18,14 @@ export const FormExample = () => {
     <FormProvider>
       <Form onSubmit={onSubmit}>
         <Stack spacing={1}>
-          <Form.TextInput name="title" label="name" />
+          <Form.TextInput name="title" label="title" />
           <Form.EmailInput name="email" label="email" />
           <Form.PasswordInput name="password" label="password" />
           <Form.Select name="select" options={selectOptions} label="select" />
           <Form.Autocomplete
             name="multipleSelect"
             options={selectOptions}
-            label="multiple select"
+            label="multipleSelect"
           />
           <Form.Checkbox name="checkbox" label="checkbox" />
           <Button type="submit">Submit</Button>

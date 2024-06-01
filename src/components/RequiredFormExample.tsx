@@ -18,7 +18,7 @@ export const RequiredFormExample = () => {
     <FormProvider>
       <Form onSubmit={onSubmit}>
         <Stack spacing={1}>
-          <Form.TextInput name="title" label="name" isRequired />
+          <Form.TextInput name="title" label="title" isRequired />
           <Form.EmailInput name="email" label="email" isRequired />
           <Form.PasswordInput name="password" label="password" isRequired />
           <Form.Select
